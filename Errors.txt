@@ -1,0 +1,8 @@
+Circle.java:
+	1. Inside the moveBy method, the center.y has to use yOffset instead of xOffset.
+		Found by simpleMove and simpleMoveNeg
+	2. Inside the scale method, the radius formula needs to be radius * factor.
+		Found by simpleScaleUp and simpleScaleDown
+Circle2.java:
+	1. Inside the Circle2 method, x and y variables are switched.
+		Found by simpleMove and simpleMoveNeg
